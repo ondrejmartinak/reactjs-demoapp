@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Initial project milestone:
+  - Create single page React web application.
+  - Replace JSX with TSX and still keep auto reloading on code change save.
+
+### Road map:
+  - Write .Net Core 2.x Web API docker container to serve the application home page and exposes web API end points.
+  - Add JWT security service docker continer to be used by web API (register new users, role base enabled UI and API to serve results based on user role.
+  
+### Idea of what would "finished" app and architecture look like
+ - BDD (unit) tests for all project features aiming for 80% coverage.
+ - Proof of concept for system resiliance demonstrate scalability and quinc spinn of replacement component in case of component crash.
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
